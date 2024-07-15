@@ -29,3 +29,10 @@ emitter.on(EVENT_NAME, () => {
   
 // Trigger a event
 emitter.emit(EVENT_NAME);
+
+const employee = {
+    name: "John",
+    age: 24,
+    address: "Sample Address",
+    hobbies: ["Reading", "Cooking", "Gaming"]
+};
